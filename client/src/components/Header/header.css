@@ -1,0 +1,49 @@
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  color: black;
+  background-color: rgba(0, 128, 0, 0.514);
+}
+
+.username {
+  transform: rotate(2deg);
+  padding: 0.2rem 1.2rem;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-color: #fdcb6e;
+  font-size: 1.5rem;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+}
+
+.add-new-btn {
+  margin-right: 6px;
+}
+
+.add-new-btn, .sign-out-btn {
+  background-color: #bb86fc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s;
+}
+
+.add-new-btn:hover, .sign-out-btn:hover {
+  background-color: #3700b3;
+}
+
+.sign-out-btn {
+  background-color: #d50000;
+}
+
+.sign-out-btn:hover {
+  background-color: #b71c1c;
+}

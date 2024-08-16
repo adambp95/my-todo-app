@@ -1,0 +1,74 @@
+.modal-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  width: 500px;
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: rgba(0,0,0,0.05) 0 6px 24px 0, rgba(0,0,0,0.08) 0 0 0 1px;
+}
+
+.form-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.form-title-container h1 {
+  margin: 0;
+}
+
+.form-title-container h1::first-letter {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.form-title-container button {
+  border: none;
+  background-color: transparent;
+  color: red;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.form-title-container button:active {
+  color: rgb(255, 50, 50);
+}
+
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content label {
+  font-size: 13px;
+}
+
+.modal-add-new-btn {
+  margin-top: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+  background-color: #bb86fc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s;
+}
